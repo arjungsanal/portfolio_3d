@@ -1,4 +1,5 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, starbucks, tesla  } from "../assets/images";
+import syncrayons from '../assets/images/syncrayons.png';
 import {
     car,
     contact,
@@ -23,7 +24,12 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    figma,
+    threejs,
+    solidity,
+    wordpress,
+    flutter,
 } from "../assets/icons";
 
 export const skills = [
@@ -58,14 +64,19 @@ export const skills = [
         type: "Frontend",
     },
     {
+        imageUrl: flutter,
+        name: "Flutter",
+        type: "App",
+    },
+    {
         imageUrl: mongodb,
         name: "MongoDB",
         type: "Database",
     },
     {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
+        imageUrl: threejs,
+        name: "Three JS",
+        type: "3D Model",
     },
     {
         imageUrl: mui,
@@ -106,58 +117,56 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
-    }
+    },
+    {
+        imageUrl: solidity,
+        name: "Solidity",
+        type: "Blockchain",
+    },
+    {
+        imageUrl: figma,
+        name: "Figma",
+        type: "Designing",
+    },
+    
 ];
 
 export const experiences = [
     {
         title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
+        company_name: "Freelancer",
+        icon: react,
+        iconBg: "#02376b",
         date: "Jan 2023 - Present",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+    },
+    {
+        title: "Frontend Developer - Intern",
+        company_name: "Syncrayons Technologies Pvt Ltd",
+        icon: syncrayons,
+        iconBg: "#E6DEDD",
+        date: "Jan 2021 - Feb 2022",
+        points: [
+            "Developing and maintaining web applications using HTML, CSS, SASS < Javascript and other related technologies.",
+      "Collaborating with with great minds and helped them develop great applications for many clients.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Designed minimalistic and modern User interfaces and developed great user experiences",
+        ],
+    },
+    {
+        title: "Wordpress Developer",
+        company_name: "Freelance",
+        icon: wordpress,
+        iconBg: "#555",
+        date: "Mar 202 - Jun 2021",
+        points: [
+            "Used Wordpress to develop sites varying from simple static pages to complex E- Commerce sites.",
+            "Focused on the generating simple interfaces and controls for the client and an elegant UI for the users",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
@@ -173,12 +182,12 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/arjungsanal',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/arjungsanal',
     }
 ];
 
@@ -186,43 +195,43 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Crypp : Crypto Transfer',
+        description: 'Web-based platform that allows users to transfer crypto currencies and tokens, this project is built on Goerli Test network and smart contracts launched using Alchemy.',
+        link: 'https://github.com/arjungsanal/react-blockchain',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
         name: 'Full Stack Threads Clone',
         description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        link: 'https://github.com/arjungsanal/threads',
     },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
+    // {
+    //     iconUrl: car,
+    //     theme: 'btn-back-blue',
+    //     name: 'Car Finding App',
+    //     description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
+    //     link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+    // },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Covid Tracker',
+        description: 'Web application that enables users to search to visualise the live covid case status around the globe. The data is pulled frome disease.sh API.',
+        link: 'https://github.com/arjungsanal/covid19-tracker',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Workspace Community',
+        description: 'A community website to represent the clubs details and to help aspiring minds to join the community. Use of Google translate and other Google APIs is a key part in its development',
+        link: 'https://github.com/arjungsanal/workspacedevelopers.github.io',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'Multimart',
+        description: 'A minimalistic E-Commerce application showcasing a wide range of products with all basic ecommerce functionalities..',
+        link: 'https://github.com/arjungsanal/simple-ecommerce',
     }
 ];
